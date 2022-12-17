@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------------
+Test set: LoginTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 28.6 s <<< FAILURE! - in LoginTest
+loginRecoverLinkTest(LoginTest)  Time elapsed: 6.018 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //label[text() = 'Логин']/following-sibling::input}
+Expected: exist
+Screenshot: file:/C:/Users/Евгений/Desktop/Diplom/Diplom__3/build/reports/tests/1671269946420.0.png
+Page source: file:/C:/Users/Евгений/Desktop/Diplom/Diplom__3/build/reports/tests/1671269946420.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text() = 'Логин']/following-sibling::input"}
+	at LoginTest.loginRecoverLinkTest(LoginTest.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//label[text() = 'Логин']/following-sibling::input"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MTM2UFJ', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\B7E3~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 76d8b77fbec41dbe085a1a10e3abbf8a
+*** Element info: {Using=xpath, value=//label[text() = 'Логин']/following-sibling::input}
+	at LoginTest.loginRecoverLinkTest(LoginTest.java:56)
+
+loginButtonMainPageTest(LoginTest)  Time elapsed: 8.315 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //label[text() = 'Логин']/following-sibling::input}
+Expected: exist
+Screenshot: file:/C:/Users/Евгений/Desktop/Diplom/Diplom__3/build/reports/tests/1671269955128.1.png
+Page source: file:/C:/Users/Евгений/Desktop/Diplom/Diplom__3/build/reports/tests/1671269955128.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text() = 'Логин']/following-sibling::input"}
+	at LoginTest.loginButtonMainPageTest(LoginTest.java:22)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//label[text() = 'Логин']/following-sibling::input"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MTM2UFJ', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\B7E3~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56264}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93e0b6bc215936953330820833d4c71b
+*** Element info: {Using=xpath, value=//label[text() = 'Логин']/following-sibling::input}
+	at LoginTest.loginButtonMainPageTest(LoginTest.java:22)
+
+loginPersonalAccountButtonTest(LoginTest)  Time elapsed: 7.102 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //label[text() = 'Логин']/following-sibling::input}
+Expected: exist
+Screenshot: file:/C:/Users/Евгений/Desktop/Diplom/Diplom__3/build/reports/tests/1671269962291.2.png
+Page source: file:/C:/Users/Евгений/Desktop/Diplom/Diplom__3/build/reports/tests/1671269962291.2.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text() = 'Логин']/following-sibling::input"}
+	at LoginTest.loginPersonalAccountButtonTest(LoginTest.java:32)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//label[text() = 'Логин']/following-sibling::input"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MTM2UFJ', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\B7E3~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56288}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ed898ef3277ca1fa88616e973032b07
+*** Element info: {Using=xpath, value=//label[text() = 'Логин']/following-sibling::input}
+	at LoginTest.loginPersonalAccountButtonTest(LoginTest.java:32)
+
+loginRegistrationLinkTest(LoginTest)  Time elapsed: 7.152 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //label[text() = 'Логин']/following-sibling::input}
+Expected: exist
+Screenshot: file:/C:/Users/Евгений/Desktop/Diplom/Diplom__3/build/reports/tests/1671269969318.3.png
+Page source: file:/C:/Users/Евгений/Desktop/Diplom/Diplom__3/build/reports/tests/1671269969318.3.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text() = 'Логин']/following-sibling::input"}
+	at LoginTest.loginRegistrationLinkTest(LoginTest.java:44)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//label[text() = 'Логин']/following-sibling::input"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MTM2UFJ', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\B7E3~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7450842bef6c5e86dd130e8339b5492a
+*** Element info: {Using=xpath, value=//label[text() = 'Логин']/following-sibling::input}
+	at LoginTest.loginRegistrationLinkTest(LoginTest.java:44)
+

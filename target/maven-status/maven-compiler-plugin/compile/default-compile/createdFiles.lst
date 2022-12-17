@@ -1,0 +1,6 @@
+page\ForgotPasswordPage.class
+page\RegistrationPage.class
+constant\Constants.class
+page\HomePage.class
+page\ProfilePage.class
+page\LoginPage.class

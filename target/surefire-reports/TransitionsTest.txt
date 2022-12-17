@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TransitionsTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.825 s <<< FAILURE! - in TransitionsTest
+logoutUserTest(TransitionsTest)  Time elapsed: 6.77 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //button[text()='Выход']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Евгений/Desktop/Diplom/Diplom__3/build/reports/tests/1671269984552.4.png
+Page source: file:/C:/Users/Евгений/Desktop/Diplom/Diplom__3/build/reports/tests/1671269984552.4.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Выход']"}
+	at TransitionsTest.logoutUserTest(TransitionsTest.java:55)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Выход']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MTM2UFJ', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\B7E3~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d9645119568135fbaba96a339cdb78a
+*** Element info: {Using=xpath, value=//button[text()='Выход']}
+	at TransitionsTest.logoutUserTest(TransitionsTest.java:55)
+
